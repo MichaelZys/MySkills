@@ -1,8 +1,11 @@
 ---
 name: zys-github-repo-classifier
 description: 基于 zys 个人分类体系分析 GitHub 仓库，输出软件类型/内容场景/可见性/特殊结构/生命周期五维分类标签
-runAs: subagent
-allowed-tools: web_fetch
+metadata:
+  author: zys
+  version: "1.0.0"
+  argument-hint: <owner/repo>
+license: MIT
 ---
 # zys-github-repo-classifier
 
